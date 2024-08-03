@@ -1,66 +1,126 @@
 /* Home.css */
 /* Made by Daniel Huang */
-/* Last Updated: 5/6/24 */
+/* Last Updated: 8/3/24 */
+
+/* Set basic color */
+:root {
+	--primary-color: #e94560;
+	--secondary-color: #16213e;
+	--accent-color: #ffd700;
+	--text-color: #333;
+	--background-color: #f0f0f0;
+}
 
 /* Reset default margin and padding */
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Noto Sans TC', sans-serif;
   min-height: 100vh;
   position: relative;
-  background-color: #f5f5f5;
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
 
 header {
+  padding: 1rem 0;
+  position: relative;
+  overflow: hidden;
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+
+.header-content {
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
-  background-color: #333;
-  color: #fff;
+  padding: 0 2rem;
 }
 
-.menu-bar {
-  display: flex;
-  justify-content: center;
+.logo {
+	font-family: 'Ma Shan Zheng', cursive;
+	font-size: 2.5rem;
+	color:var(--accent-color);
 }
 
-.menu-bar nav ul {
+nav ul {
   list-style-type: none;
   display: flex;
+  gap: 2rem;
 }
 
-.menu-bar nav ul li {
-  margin: 0 10px;
-}
-
-.menu-bar nav ul li a {
+nav ul li a {
   color: #fff;
   text-decoration: none;
-  padding: 10px;
+  font-weight: bold;
+  transition: color 0.3s ease;
 }
 
-.menu-bar nav ul li a:hover {
-  background-color: #555;
-  border-radius: 5px;
+nav ul li a:hover {
+	color: var(--accent-color);
 }
 
-main {
-  margin: 20px;
+.star {
+  background-image: "1.jpg";
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  postiion: relative;
+  padding: 0 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.star::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.star-content {
+	text-align: center;
+	color: #fff;
+	position: relative;
+	z-index: 1;
+}
+
+.star h1 {
+	font-size: 4rem;
+	margin-bottom: 1rem;
+}
+
+.star p {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.cta-button {
+	display: inline-block;
+	background-color: var(--primary-color);
+	color: #fff;
+	padding: 0.8rem 1.5rem;
+	text-decoration: none;
+	font-weight: bold;
+	border-radius: 5px;
+	transition: background-color 0.3 ease;
+}
+
+.cta-button:hover {
+	background-color: #d63850;
 }
 
 .carousel {
-  margin-top: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  overflow: hidden;
+  margin-right: 50px;
 }
 
 .food-image {
@@ -69,30 +129,110 @@ main {
   max-width: 1000px; /* Adjust max-width as needed */
 }
 
+main {
+	max-width: 1200px;
+	margin: 3rem auto;
+	padding: 0 2rem;
+}
+
+.section-title {
+	text-align: center;
+	font-size: 2.5rem;
+	margin-bottom: 2rem;
+	color: var(--secondary-color);
+}
+
+.menu-preview {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	gap: 2rem;
+}
+
+.menu-item {
+	background-color: #fff;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	transition: transform 0.3s ease;
+}
+
+.menu-item:hover {
+	transform: translateY(-5px);
+}
+
+.menu-item img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+}
+
+.menu-item-content {
+	padding: 1rem;
+}
+
+.menu-item h3 {
+	margin: 0 0 0.5rem 0;
+	color: var(--primary-color);
+}
+
+.boba-bar {
+	background-color: var(--secondary-color);
+	color: #fff;
+	padding: 3rem 0;
+	margin-top: 3rem;
+}
+
+.boba-content {
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 2rem;
+}
+
+.boba-text {
+	flex: 1;
+	padding-right: 2rem;
+}
+
+.boba-image {
+	flex: 1;
+	text-align: right;
+}
+
+.boba-image img {
+	max-width: 100%;
+	border-radius: 10px;
+}
+
 footer {
-  background-color: #333;
+  background-color: var(--secondary-color);
   color: #fff;
   text-align: center;
-  bottom: 0;
-  width: 100%;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  position: fixed;
+  padding: 2rem 0;
+  margin-top: 3rem;
 }
 
-.info {
-  margin-bottom: 20px;
+.footer h2 {
+  font-size: 1.5em;
 }
 
-.info h2 {
-  font-size: 1.2em;
+.footer p {
+  margin: 10px 0;
 }
 
-.info p {
-  margin: 5px 0;
-}
-
-.info a {
-  color: #fff;
+.footer a {
+  background-color: #fff;
   text-decoration: none;
+}
+
+@keyframes float {
+	0% { transform: translateY(0px); }
+	50% { transform: translateY(-10px); }
+	100% { transform: translateY(0px); }
+}
+
+.floating {
+	animation: float 3s ease-in-out infinite;
 }

@@ -1,34 +1,39 @@
 <!--home.html-->
 <!--HomePage-->
 <!--Made By Daniel Huang-->
-<!--Last update: 5/6/24-->
+<!--Last update: 8/3/24-->
 
 <!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Tugo Teahouse - Taiwanese Cuisine and Boba Bar</title>
+		<title>Tugo Teahouse - Authentic Taiwanese Cuisine & Boba Bar</title>
 		<link rel="stylesheet" type="text/css" href="home.css">
 		<link rel="icon" href="1.jpg">
 	</head>
 
 	<body>
 		<header>
-			<div class="menu-bar">
+			<div class="header-content">
+				<div class="logo">Tugo Teahouse</div>
 				<nav>
 					<ul>
 						<li><a href="#home">HOME</a></li>
 						<li><a href="#menu">MENU</a></li>
-						<li><a href="#aboutus">ABOUT US</a></li>
+						<li><a href="#about">ABOUT US</a></li>
 						<li><a href="#order">ORDER ONLINE</a></li>
 					</ul>
 				</nav>
 			</div>
-			<h1>Welcome to Tugo Teahouse</h1>
 		</header>
 
-		<main>
+		<section class="star">
+			<div class="star-content">
+				<h1>Tugo Teahouse</h1>
+				<p>Authentic Taiwanese Cuisine & Boba Bar</p>
+				<a href="#order" class="cta-button">Order Now</a>
+			</div>
 			<div class="carousel">
 				<div class="carousel-item">
 					<img class="food-image" src="1.jpg">
@@ -40,16 +45,66 @@
 					<img class="food-image" src="3.jpg">
 				</div>
 			</div>
+		</section>
+
+		<main>
+			<section id="menu">
+				<h2 class="section-title">Our Signature Dishes</h2>
+				<div class="menu-preview">
+					<div class="menu-item floating">
+						<img src="https://taiwan-fusion.com/images/beef-noodle-soup.jpg" alt="Taiwanese beef noodle soup with tender meat and rich broth" width="250" height="200">
+						<div class="menu-item-content">
+							<h3>Beef Noodle Soup</h3>
+							<p>Rich broth, tender beef, and hand-pulled noodles</p>
+						</div>
+					</div>
+					<div class="menu-item floating">
+						<img src="https://taiwan-fusion.com/images/gua-bao.jpg" alt="Gua Bao - Taiwanese steamed bun with braised pork belly" width="250" height="200">
+						<div class="menu-item-content">
+							<h3>Gua Bao</h3>
+							<p>Steamed bun with braised pork belly and pickled veggies</p>
+						</div>
+					</div>
+					<div class="menu-item floating">
+						<img src="https://taiwan-fusion.com/images/three-cup-chicken.jpg" alt="Three Cup Chicken - Taiwanese stir-fry with basil" width="250" height="200">
+						<div class="menu-item-content">
+							<h3>Three Cup Chicken</h3>
+							<p>Fragrant chicken stir-fry with basil and soy sauce</p>
+						</div>
+					</div>
+					<div class="menu-item floating">
+						<img src="https://taiwan-fusion.com/images/oyster-omelette.jpg" alt="Taiwanese oyster omelette with sweet and savory sauce" width="250" height="200">
+						<div class="menu-item-content">
+							<h3>Oyster Omelette</h3>
+							<p>Crispy egg pancake with fresh oysters and tangy sauce</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="boba" class="boba-bar">
+				<div class="boba-content">
+					<div class="boba-text">
+						<h2>Boba Bar</h2>
+						<p>Indulge in our wide selection of authentic Taiwanese bubble teas and creative boba drinks. From classic milk teas to fruit-infused creations, we use only the finest ingredients and traditional brewing methods.</p>
+						<a href="#boba-menu" class="cta-button">Explore Boba Menu</a>
+					</div>
+					<div class="boba-image">
+						<img src="https://taiwan-fusion.com/images/boba-drinks.jpg" alt="Colorful array of boba tea drinks with tapioca pearls" width="500" height="333">
+					</div>
+				</div>
+			</section>
 		</main>
 
 		<footer>
 			<div class="footer">
-				<div class="info">
-					<h2>Restaurant Information</h2>
-					<p>1285 N Rand Rd, Arlington Heights, IL 60004</p>
-					<p>Phone: +1 (847) 873-1333</p>
-					<a href="#info">More Info</a>
-				</div>
+				<ul>
+					<p>&copy; 2024 Tugo Teahouse. All rights reserved.</p>
+					<li><h2>Restaurant Information</h2></li>
+					<li><p>1285 N Rand Rd, Arlington Heights, IL 60004</p></li>
+					<li><p>Phone: +1 (847) 873-1333</p></li>
+					<li><a href="#info">More Info</a></li>
+				</ul>
 			</div>
 		</footer>
 
