@@ -4,20 +4,15 @@
  */
 
 document.addEventListener("DOMContentLoaded", function () {
-	let slideIndex = 1;
+	let slideIndex = 0;
 	const slides = document.querySelectorAll(".carousel-item");
-	let timer;
-
-	// Hide all slides but the first one
-	slides.forEach((slide) => (slide.style.display = "none"));
-	slides[0].style.display = "block";
 
 	// Function to show slides
 	function showSlides() {
 		// Hide all slides
-		slides.forEach((slide) => (slide.style.display = "none"));
+		slides.forEach((slide) => slide.classList.remove("active"));
 		// Show the current slide
-		slides[slideIndex].style.display = "block";
+		slides[slideIndex].classList.add("active");
 		// Move to the next slide
 		slideIndex++;
 		// If we've reached the end, start from the beginning
@@ -28,7 +23,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
 	// Function to start the carousel rotation
 	function startCarousel() {
-		timer = setInterval(showSlides, 2000);
+		showSlides();
+		setInterval(showSlides, 2000);
 	}
 
 	// Start the carousel rotation initially
