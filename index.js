@@ -1,6 +1,6 @@
-/* home.js
+/* index.js
  * Made by Daniel Huang
- * Last update: 8/3/24
+ * Last update: 8/4/24
  */
 
 document.addEventListener("DOMContentLoaded", function () {

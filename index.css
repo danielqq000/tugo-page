@@ -1,6 +1,6 @@
-/* Home.css */
+/* index.css */
 /* Made by Daniel Huang */
-/* Last Updated: 8/3/24 */
+/* Last Updated: 8/4/24 */
 
 /* Set basic color */
 :root {
@@ -187,10 +187,6 @@ main {
 	transition: transform 0.3s ease;
 }
 
-.menu-item:hover {
-	transform: translateY(-5px);
-}
-
 .menu-item img {
 	width: 100%;
 	height: 200px;
@@ -204,6 +200,11 @@ main {
 .menu-item h3 {
 	margin: 0 0 0.5rem 0;
 	color: var(--primary-color);
+}
+
+.button {
+	text-align: center;
+	margin-top: 2rem;
 }
 
 .boba-bar {
@@ -268,14 +269,15 @@ footer {
 
 /* Responsive Styles */
 @media (max-width: 1200px) {
+	.logo {
+		font-size: 2rem;
+		margin-bottom: 1rem;
+	}
 	.star h1 {
 		font-size: 8rem;
 	}
 	.star p {
 		font-size: 3rem;
-	}
-	.logo {
-		font-size: 2rem;
 	}
 }
 
