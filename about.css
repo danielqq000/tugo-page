@@ -1,6 +1,6 @@
-/* Menu.css */
+/* about.css */
 /* Made by Daniel Huang */
-/* Last Updated: 8/4/24 */
+/* Last Updated: 12/11/25 */
 
 /* Set basic color */
 :root {
@@ -15,6 +15,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -140,13 +141,93 @@ main {
 .section-title {
     text-align: center;
     font-size: 2.5rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
     color: var(--secondary-color);
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.about-text {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about-text h2 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.about-text p {
+    line-height: 1.8;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+}
+
+.restaurant-info {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.restaurant-info h2 {
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+}
+
+.info-card {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background-color: var(--background-color);
+    border-radius: 8px;
+}
+
+.info-card h3 {
+    color: var(--secondary-color);
+    margin-bottom: 0.5rem;
+}
+
+.info-card p {
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+.order-info {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.order-info h2 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.order-info p {
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+
+.order-info ul {
+    list-style-position: inside;
+    margin-bottom: 2rem;
+}
+
+.order-info ul li {
+    margin-bottom: 0.8rem;
+    line-height: 1.6;
 }
 
 .order-button-container {
     text-align: center;
-    margin-bottom: 3rem;
+    margin-top: 2rem;
 }
 
 .order-button {
@@ -168,114 +249,12 @@ main {
     box-shadow: 0 6px 20px rgba(233, 69, 96, 0.5);
 }
 
-.menu-categories {
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
-}
-
-.menu-category {
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 2rem;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.menu-category h2 {
-    color: var(--primary-color);
-    margin-bottom: 1rem;
-}
-
-.menu-items {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-}
-
-.menu-item {
-    background-color: #fff;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-    flex: 1 1 calc(25% - 2rem); /* Adjusted for 4 items per row */
-	max-width: calc(25% - 2rem);
-	max-height: calc(25% - 2rem);
-	display: flex;
-	flex-direction: column;
-}
-
-.menu-item:hover {
-    transform: translateY(-5px);
-}
-
-.menu-item img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-}
-
-.menu-item-info {
-    padding: 1rem;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-}
-
-.menu-item-info h3 {
-    margin: 0 0 0.3rem 0;
-    color: var(--primary-color);
-    font-size: 1.2rem;
-}
-
-.menu-item-info .chinese-name {
-    font-size: 0.9rem;
-    color: var(--secondary-color);
-    margin: 0 0 0.5rem 0;
-    font-weight: 500;
-}
-
-.menu-item-info .description {
-    font-size: 0.9rem;
-    color: #666;
-    margin: 0 0 0.8rem 0;
-    line-height: 1.4;
-    flex-grow: 1;
-}
-
-.menu-item-info .price {
-    font-size: 1.3rem;
-    font-weight: bold;
-    color: var(--primary-color);
-    margin: auto 0 0 0;
-}
-
-/* Single row layout for food and popular pages */
-body.single-row-layout .menu-item {
-    flex: 1 1 100%;
-    max-width: 100%;
-    flex-direction: row;
-    align-items: center;
-}
-
-body.single-row-layout .menu-item img {
-    width: 250px;
-    min-width: 250px;
-    height: 200px;
-    object-fit: cover;
-}
-
-body.single-row-layout .menu-item-info {
-    text-align: left;
-    padding: 1.5rem;
-}
-
 footer {
     background-color: var(--secondary-color);
     color: #fff;
     text-align: center;
     padding: 2rem 0;
+    margin-top: 4rem;
 }
 
 .footer h2 {
@@ -287,28 +266,11 @@ footer {
 }
 
 /* Responsive Styles */
-@media (max-width: 1200px) {
-    .logo {
-        font-size: 2rem;
-        margin-bottom: 1rem;
-    }
-    .menu-category h2 {
-        font-size: 2rem;
-    }
-    .menu-items {
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-    .menu-item {
-        flex: 1 1 calc(50% - 2rem); /* 2 items per row */
-        max-width: calc(50% - 2rem);
-    }
-}
-
 @media (max-width: 768px) {
     .header-content {
         flex-direction: column;
     }
+
     nav ul {
         flex-direction: column;
         gap: 1rem;
@@ -325,19 +287,5 @@ footer {
 
     .dropdown:hover .dropdown-content {
         display: block;
-    }
-    .menu-items {
-        justify-content: center;
-    }
-    .menu-item {
-        flex: 1 1 calc(100% - 2rem); /* 1 item per row */
-        max-width: 100%;
-    }
-}
-
-@media (max-width: 480px) {
-    .cta-button {
-        padding: 0.5rem 1rem;
-        font-size: 1rem;
     }
 }

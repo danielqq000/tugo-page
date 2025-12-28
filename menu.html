@@ -22,9 +22,28 @@
             <nav>
                 <ul>
                     <li><a href="index.html">HOME</a></li>
-                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="popular-orders.html">POPULARS</a></li>
+                    <li class="dropdown">
+                        <a href="#">FOOD</a>
+                        <div class="dropdown-content">
+                            <a href="rice.html">Rice</a>
+                            <a href="noodle.html">Noodle</a>
+                            <a href="potstickers.html">Potstickers</a>
+                            <a href="sides.html">Sides</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">DRINKS</a>
+                        <div class="dropdown-content">
+                            <a href="milk-tea.html">Milk Tea</a>
+                            <a href="smoothies.html">Smoothies</a>
+                            <a href="refreshers.html">Refreshers</a>
+                            <a href="tugo-specials.html">Tugo Specials</a>
+                            <a href="soda.html">Soda</a>
+                        </div>
+                    </li>
                     <li><a href="about.html">ABOUT US</a></li>
-                    <li><a href="order.html">ORDER ONLINE</a></li>
+                    <li><a href="https://tugoteahouse.square.site/?location=M8HYNE5V844V6" target="_blank">ORDER ONLINE</a></li>
                 </ul>
             </nav>
         </div>
@@ -33,83 +52,376 @@
     <main>
         <section id="menu-section">
             <h1 class="section-title">Our Menu</h1>
+
             <div class="menu-categories">
-                <div class="menu-category">
-                    <h2>Main Dishes</h2>
+                <!-- Main Dishes -->
+                <div id="main-dishes" class="menu-category">
+                    <h2>Main Dishes 主餐</h2>
                     <div class="menu-items">
                         <div class="menu-item">
                             <img src="images/1.jpg" alt="Beef Noodle Soup">
                             <div class="menu-item-info">
                                 <h3>Beef Noodle Soup</h3>
-                                <p>Rich broth, tender beef, and hand-pulled noodles</p>
+                                <p class="chinese-name">牛肉麵</p>
+                                <p class="description">Rich broth, tender beef, and hand-pulled noodles</p>
+                                <p class="price">$13.99</p>
                             </div>
                         </div>
                         <div class="menu-item">
                             <img src="images/2.jpg" alt="Gua Bao">
                             <div class="menu-item-info">
                                 <h3>Gua Bao</h3>
-                                <p>Steamed bun with braised pork belly and pickled veggies</p>
+                                <p class="chinese-name">刈包</p>
+                                <p class="description">Steamed bun with braised pork belly and pickled veggies</p>
+                                <p class="price">$5.99</p>
                             </div>
                         </div>
                         <div class="menu-item">
                             <img src="images/popcorn_chicken.jpg" alt="Three Cup Chicken">
                             <div class="menu-item-info">
                                 <h3>Three Cup Chicken</h3>
-                                <p>Fragrant chicken stir-fry with basil and soy sauce</p>
+                                <p class="chinese-name">三杯雞</p>
+                                <p class="description">Fragrant chicken stir-fry with basil and soy sauce</p>
+                                <p class="price">$14.99</p>
                             </div>
                         </div>
                         <div class="menu-item">
                             <img src="images/4.jpg" alt="Braised Pork Rice">
                             <div class="menu-item-info">
                                 <h3>Braised Pork Rice</h3>
-                                <p>Delicious braised pork served over rice with pickled vegetables</p>
+                                <p class="chinese-name">滷肉飯</p>
+                                <p class="description">Delicious braised pork served over rice with pickled vegetables</p>
+                                <p class="price">$9.99</p>
                             </div>
                         </div>
                         <div class="menu-item">
                             <img src="images/shaved_ice.jpg" alt="Taiwanese Fried Chicken">
                             <div class="menu-item-info">
                                 <h3>Taiwanese Fried Chicken</h3>
-                                <p>Crispy fried chicken seasoned with a special blend of spices</p>
+                                <p class="chinese-name">鹽酥雞</p>
+                                <p class="description">Crispy fried chicken seasoned with a special blend of spices</p>
+                                <p class="price">$10.99</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="images/lunch_special.jpg" alt="Pork Chop Rice">
+                            <div class="menu-item-info">
+                                <h3>Pork Chop Rice</h3>
+                                <p class="chinese-name">排骨飯</p>
+                                <p class="description">Crispy fried pork chop served with steamed rice and vegetables</p>
+                                <p class="price">$12.99</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="images/3.jpg" alt="Dan Dan Noodles">
+                            <div class="menu-item-info">
+                                <h3>Dan Dan Noodles</h3>
+                                <p class="chinese-name">擔擔麵</p>
+                                <p class="description">Spicy Sichuan noodles with minced pork and peanut sauce</p>
+                                <p class="price">$11.99</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="images/5.jpg" alt="Oyster Omelette">
+                            <div class="menu-item-info">
+                                <h3>Oyster Omelette</h3>
+                                <p class="chinese-name">蚵仔煎</p>
+                                <p class="description">Traditional Taiwanese egg and oyster pancake with sweet sauce</p>
+                                <p class="price">$12.99</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="menu-category">
-                    <h2>Boba Drinks</h2>
+
+                <!-- Appetizers & Snacks -->
+                <div id="appetizers" class="menu-category">
+                    <h2>Appetizers & Snacks 小吃</h2>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <img src="images/popcorn_chicken.jpg" alt="Popcorn Chicken">
+                            <div class="menu-item-info">
+                                <h3>Popcorn Chicken</h3>
+                                <p class="chinese-name">鹹酥雞</p>
+                                <p class="description">Crispy bite-sized chicken with basil and spices</p>
+                                <p class="price">$8.99</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="images/1.jpg" alt="Stinky Tofu">
+                            <div class="menu-item-info">
+                                <h3>Stinky Tofu</h3>
+                                <p class="chinese-name">臭豆腐</p>
+                                <p class="description">Fermented tofu with pickled cabbage and special sauce</p>
+                                <p class="price">$7.99</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="images/2.jpg" alt="Scallion Pancake">
+                            <div class="menu-item-info">
+                                <h3>Scallion Pancake</h3>
+                                <p class="chinese-name">蔥油餅</p>
+                                <p class="description">Crispy and flaky pancake with fresh scallions</p>
+                                <p class="price">$6.99</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="images/4.jpg" alt="Taiwanese Sausage">
+                            <div class="menu-item-info">
+                                <h3>Taiwanese Sausage</h3>
+                                <p class="chinese-name">香腸</p>
+                                <p class="description">Sweet and savory grilled pork sausage</p>
+                                <p class="price">$7.99</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Soups -->
+                <div id="soups" class="menu-category">
+                    <h2>Soups 湯品</h2>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <img src="images/3.jpg" alt="Wonton Soup">
+                            <div class="menu-item-info">
+                                <h3>Wonton Soup</h3>
+                                <p class="chinese-name">餛飩湯</p>
+                                <p class="description">Delicate pork wontons in savory broth</p>
+                                <p class="price">$8.99</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="images/5.jpg" alt="Hot and Sour Soup">
+                            <div class="menu-item-info">
+                                <h3>Hot and Sour Soup</h3>
+                                <p class="chinese-name">酸辣湯</p>
+                                <p class="description">Spicy and tangy soup with tofu and bamboo shoots</p>
+                                <p class="price">$7.99</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="images/1.jpg" alt="Pork Rib Soup">
+                            <div class="menu-item-info">
+                                <h3>Pork Rib Soup</h3>
+                                <p class="chinese-name">排骨湯</p>
+                                <p class="description">Tender pork ribs simmered in herbal broth</p>
+                                <p class="price">$9.99</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="images/2.jpg" alt="Seaweed Egg Drop Soup">
+                            <div class="menu-item-info">
+                                <h3>Seaweed Egg Drop Soup</h3>
+                                <p class="chinese-name">紫菜蛋花湯</p>
+                                <p class="description">Light soup with seaweed and silky egg ribbons</p>
+                                <p class="price">$6.99</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Boba Drinks -->
+                <div id="boba-drinks" class="menu-category">
+                    <h2>Boba Drinks 珍珠飲品</h2>
                     <div class="menu-items">
                         <div class="menu-item">
                             <img src="images/3.jpg" alt="Classic Milk Tea">
                             <div class="menu-item-info">
                                 <h3>Classic Milk Tea</h3>
-                                <p>Traditional Taiwanese milk tea with tapioca pearls</p>
+                                <p class="chinese-name">珍珠奶茶</p>
+                                <p class="description">Traditional Taiwanese milk tea with tapioca pearls</p>
+                                <p class="price">$5.99</p>
                             </div>
                         </div>
                         <div class="menu-item">
                             <img src="images/1.jpg" alt="Fruit Tea">
                             <div class="menu-item-info">
                                 <h3>Fruit Tea</h3>
-                                <p>Refreshing tea with a blend of fresh fruits</p>
+                                <p class="chinese-name">水果茶</p>
+                                <p class="description">Refreshing tea with a blend of fresh fruits</p>
+                                <p class="price">$6.49</p>
                             </div>
                         </div>
                         <div class="menu-item">
                             <img src="images/2.jpg" alt="Taro Milk Tea">
                             <div class="menu-item-info">
                                 <h3>Taro Milk Tea</h3>
-                                <p>Creamy taro-flavored milk tea with tapioca pearls</p>
+                                <p class="chinese-name">芋頭奶茶</p>
+                                <p class="description">Creamy taro-flavored milk tea with tapioca pearls</p>
+                                <p class="price">$6.49</p>
                             </div>
                         </div>
                         <div class="menu-item">
                             <img src="images/4.jpg" alt="Matcha Milk Tea">
                             <div class="menu-item-info">
                                 <h3>Matcha Milk Tea</h3>
-                                <p>Refreshing green tea with a hint of sweetness</p>
+                                <p class="chinese-name">抹茶奶茶</p>
+                                <p class="description">Refreshing green tea with a hint of sweetness</p>
+                                <p class="price">$6.49</p>
                             </div>
                         </div>
                         <div class="menu-item">
                             <img src="images/5.jpg" alt="Brown Sugar Milk Tea">
                             <div class="menu-item-info">
                                 <h3>Brown Sugar Milk Tea</h3>
-                                <p>Rich brown sugar syrup mixed with creamy milk tea</p>
+                                <p class="chinese-name">黑糖奶茶</p>
+                                <p class="description">Rich brown sugar syrup mixed with creamy milk tea</p>
+                                <p class="price">$6.99</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="images/3.jpg" alt="Wintermelon Tea">
+                            <div class="menu-item-info">
+                                <h3>Wintermelon Tea</h3>
+                                <p class="chinese-name">冬瓜茶</p>
+                                <p class="description">Sweet traditional tea made from wintermelon</p>
+                                <p class="price">$5.49</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="images/1.jpg" alt="Oolong Tea">
+                            <div class="menu-item-info">
+                                <h3>Oolong Tea</h3>
+                                <p class="chinese-name">烏龍茶</p>
+                                <p class="description">Premium oolong tea with or without boba</p>
+                                <p class="price">$5.49</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="images/2.jpg" alt="Mango Smoothie">
+                            <div class="menu-item-info">
+                                <h3>Mango Smoothie</h3>
+                                <p class="chinese-name">芒果冰沙</p>
+                                <p class="description">Creamy mango smoothie with fresh fruit</p>
+                                <p class="price">$6.99</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Desserts -->
+                <div id="desserts" class="menu-category">
+                    <h2>Desserts 甜點</h2>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <img src="images/shaved_ice.jpg" alt="Shaved Ice">
+                            <div class="menu-item-info">
+                                <h3>Shaved Ice</h3>
+                                <p class="chinese-name">刨冰</p>
+                                <p class="description">Fluffy shaved ice with your choice of toppings</p>
+                                <p class="price">$7.99</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="images/4.jpg" alt="Grass Jelly">
+                            <div class="menu-item-info">
+                                <h3>Grass Jelly</h3>
+                                <p class="chinese-name">仙草</p>
+                                <p class="description">Refreshing herbal jelly dessert</p>
+                                <p class="price">$5.99</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="images/5.jpg" alt="Mochi">
+                            <div class="menu-item-info">
+                                <h3>Mochi</h3>
+                                <p class="chinese-name">麻糬</p>
+                                <p class="description">Soft and chewy rice cake with sweet filling</p>
+                                <p class="price">$6.99</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="images/3.jpg" alt="Pineapple Cake">
+                            <div class="menu-item-info">
+                                <h3>Pineapple Cake</h3>
+                                <p class="chinese-name">鳳梨酥</p>
+                                <p class="description">Traditional Taiwanese pastry with pineapple filling</p>
+                                <p class="price">$4.99</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Popular Orders -->
+                <div id="popular-orders" class="menu-category">
+                    <h2>Popular Orders 人氣推薦</h2>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <img src="images/1.jpg" alt="Beef Noodle Soup">
+                            <div class="menu-item-info">
+                                <h3>Beef Noodle Soup</h3>
+                                <p class="chinese-name">牛肉麵</p>
+                                <p class="description">Our signature rich broth with tender beef and hand-pulled noodles</p>
+                                <p class="price">$13.99</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="images/3.jpg" alt="Classic Milk Tea">
+                            <div class="menu-item-info">
+                                <h3>Classic Milk Tea</h3>
+                                <p class="chinese-name">珍珠奶茶</p>
+                                <p class="description">Traditional Taiwanese milk tea with tapioca pearls</p>
+                                <p class="price">$5.99</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="images/popcorn_chicken.jpg" alt="Popcorn Chicken">
+                            <div class="menu-item-info">
+                                <h3>Popcorn Chicken</h3>
+                                <p class="chinese-name">鹹酥雞</p>
+                                <p class="description">Crispy bite-sized chicken with basil and spices</p>
+                                <p class="price">$8.99</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="images/2.jpg" alt="Gua Bao">
+                            <div class="menu-item-info">
+                                <h3>Gua Bao</h3>
+                                <p class="chinese-name">刈包</p>
+                                <p class="description">Steamed bun with braised pork belly and pickled veggies</p>
+                                <p class="price">$5.99</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Combos -->
+                <div id="combos" class="menu-category">
+                    <h2>Combo Meals 套餐</h2>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <img src="images/lunch_special.jpg" alt="Lunch Combo">
+                            <div class="menu-item-info">
+                                <h3>Lunch Special Combo</h3>
+                                <p class="chinese-name">午餐套餐</p>
+                                <p class="description">Choice of main dish + soup + drink</p>
+                                <p class="price">$16.99</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="images/4.jpg" alt="Boba & Snack Combo">
+                            <div class="menu-item-info">
+                                <h3>Boba & Snack Combo</h3>
+                                <p class="chinese-name">飲料小食套餐</p>
+                                <p class="description">Any boba drink + popcorn chicken or scallion pancake</p>
+                                <p class="price">$12.99</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="images/5.jpg" alt="Family Combo">
+                            <div class="menu-item-info">
+                                <h3>Family Combo</h3>
+                                <p class="chinese-name">家庭套餐</p>
+                                <p class="description">2 main dishes + 2 appetizers + 2 drinks</p>
+                                <p class="price">$39.99</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="images/1.jpg" alt="Noodle & Boba Combo">
+                            <div class="menu-item-info">
+                                <h3>Noodle & Boba Combo</h3>
+                                <p class="chinese-name">麵食飲料套餐</p>
+                                <p class="description">Any noodle dish + classic milk tea</p>
+                                <p class="price">$17.99</p>
                             </div>
                         </div>
                     </div>
