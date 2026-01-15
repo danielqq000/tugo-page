@@ -26,20 +26,17 @@
                     <li class="dropdown">
                         <a href="#">FOOD</a>
                         <div class="dropdown-content">
-                            <a href="rice.html">Rice</a>
-                            <a href="noodle.html">Noodle</a>
-                            <a href="potstickers.html">Potstickers</a>
-                            <a href="sides.html">Sides</a>
+                            <a href="main-dish.html">Main Dishes</a>
+                            <a href="pop-sides.html">Pop & Sides</a>
                         </div>
                     </li>
                     <li class="dropdown">
                         <a href="#">DRINKS</a>
                         <div class="dropdown-content">
-                            <a href="milk-tea.html">Milk Tea</a>
+                            <a href="milk-tea.html">Teas</a>
                             <a href="smoothies.html">Smoothies</a>
                             <a href="refreshers.html">Refreshers</a>
                             <a href="tugo-specials.html">Tugo Specials</a>
-                            <a href="soda.html">Soda</a>
                         </div>
                     </li>
                     <li><a href="about.html">ABOUT US</a></li>
@@ -56,42 +53,7 @@
             <div class="menu-categories">
                 <div class="menu-category">
                     <div class="menu-items">
-                        <div class="menu-item">
-                            <img src="images/1.jpg" alt="Beef Noodle Soup">
-                            <div class="menu-item-info">
-                                <h3>Beef Noodle Soup</h3>
-                                <p class="chinese-name">牛肉麵</p>
-                                <p class="description">Our signature rich broth with tender beef and hand-pulled noodles</p>
-                                <p class="price">$13.99</p>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <img src="images/3.jpg" alt="Classic Milk Tea">
-                            <div class="menu-item-info">
-                                <h3>Classic Milk Tea</h3>
-                                <p class="chinese-name">珍珠奶茶</p>
-                                <p class="description">Traditional Taiwanese milk tea with tapioca pearls</p>
-                                <p class="price">$5.99</p>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <img src="images/popcorn_chicken.jpg" alt="Popcorn Chicken">
-                            <div class="menu-item-info">
-                                <h3>Popcorn Chicken</h3>
-                                <p class="chinese-name">鹹酥雞</p>
-                                <p class="description">Crispy bite-sized chicken with basil and spices</p>
-                                <p class="price">$8.99</p>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <img src="images/2.jpg" alt="Gua Bao">
-                            <div class="menu-item-info">
-                                <h3>Gua Bao</h3>
-                                <p class="chinese-name">刈包</p>
-                                <p class="description">Steamed bun with braised pork belly and pickled veggies</p>
-                                <p class="price">$5.99</p>
-                            </div>
-                        </div>
+                        <!-- 菜單項目由 menu-renderer.js 動態生成 -->
                     </div>
                 </div>
             </div>
@@ -105,9 +67,15 @@
                 <li><h2>Restaurant Information</h2></li>
                 <li><p>1285 N Rand Rd, Arlington Heights, IL 60004</p></li>
                 <li><p>Phone: +1 (847) 873-1333</p></li>
-                <li><p>Opening hour: 11:00 - 20:00, Wed to Sun</p></li>
+                <li><p>Opening Hours:</p></li>
+		<li><p>Tue - Sat: 11:00 AM - 8:00 PM</p></li>
+		<li><p>Sun: 11:00 AM - 7:00 PM</p></li>
+		<li><p>Mon: Closed</p></li>
             </ul>
         </div>
     </footer>
+
+    <script src="data/menu-data.js"></script>
+    <script src="js/menu-renderer.js"></script>
 </body>
 </html>

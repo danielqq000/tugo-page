@@ -1,0 +1,410 @@
+{
+  "categories": {
+    "popular-orders": {
+      "id": "popular-orders",
+      "title": {
+        "en": "Popular Orders",
+        "zh": "人氣推薦"
+      },
+      "layout": "single-row",
+      "items": [
+        {
+          "id": "popcorn-chicken",
+          "name": {
+            "en": "Popcorn Chicken",
+            "zh": "鹹酥雞"
+          },
+          "description": "Tugo's Famous Popcorn Chicken - A Favorite Taiwanese Street Food!",
+          "image": "popcorn-chicken-1.jpg"
+        },
+        {
+          "id": "milk-tea",
+          "name": {
+            "en": "Milk Teas",
+            "zh": "奶茶"
+          },
+          "description": "Tugo Milk Teas are prepared with Fresh Brewed Teas (Assam, Dark Roast Oolong & Jasmine Green Teas) Most Served Cold/Iced or Blended",
+          "image": "milk-tea-1.jpg"
+        },
+        {
+          "id": "bento-box",
+          "name": {
+            "en": "Bento Box Meals",
+            "zh": "便當"
+          },
+          "description": "Tugo's Bentos Are Served With Vegetables, Egg & Rice Topped with Minced Pork - Choice of Meats",
+          "image": "pork-chop-bento-1.jpg"
+        },
+        {
+          "id": "braised-pork-bowl",
+          "name": {
+            "en": "Braised Minced Pork Bowls",
+            "zh": "滷肉飯"
+          },
+          "description": "Traditional Taiwanese braised minced pork over rice",
+          "image": "pork-chop-bento-2.jpg"
+        }
+      ]
+    },
+    "milk-tea": {
+      "id": "milk-tea",
+      "title": {
+        "en": "Milk Tea",
+        "zh": "奶茶"
+      },
+      "layout": "grid",
+      "items": [
+        {
+          "id": "black-milk-tea",
+          "name": {
+            "en": "Assam Black Milk Tea",
+            "zh": "阿薩姆奶茶"
+          },
+          "description": "Premium Assam black tea with creamy milk",
+          "image": "milk-tea-1.jpg"
+        },
+        {
+          "id": "green-milk-tea",
+          "name": {
+            "en": "Jasmine Green Milk Tea",
+            "zh": "茉莉綠奶茶"
+          },
+          "description": "Fragrant jasmine green tea with milk",
+          "image": "milk-tea-2.jpg"
+        },
+        {
+          "id": "oolong-milk-tea",
+          "name": {
+            "en": "Dark Roast Oolong Milk Tea",
+            "zh": "烏龍奶茶"
+          },
+          "description": "Dark roast oolong tea with creamy milk",
+          "image": "oolong-milk-tea.jpg"
+        },
+        {
+          "id": "taro-milk-tea",
+          "name": {
+            "en": "Taro Milk Tea",
+            "zh": "芋頭奶茶"
+          },
+          "description": "Creamy taro-flavored milk tea",
+          "image": "taro-milk-tea.jpg"
+        },
+        {
+          "id": "brown-sugar-milk-tea",
+          "name": {
+            "en": "Brown Sugar Milk Tea",
+            "zh": "黑糖奶茶"
+          },
+          "description": "Rich brown sugar syrup mixed with milk tea",
+          "image": "brown-sugar-milk-tea.jpg"
+        },
+        {
+          "id": "thai-milk-tea",
+          "name": {
+            "en": "Thai Milk Tea",
+            "zh": "泰式奶茶"
+          },
+          "description": "Sweet and creamy Thai-style milk tea",
+          "image": "milk-tea-2.jpg"
+        }
+      ]
+    },
+    "smoothies": {
+      "id": "smoothies",
+      "title": {
+        "en": "Fresh Fruit Smoothies",
+        "zh": "新鮮水果冰沙"
+      },
+      "layout": "grid",
+      "items": [
+        {
+          "id": "strawberry-smoothie",
+          "name": {
+            "en": "Strawberry Smoothie",
+            "zh": "草莓冰沙"
+          },
+          "description": "Our delicious smoothies are prepared with Fresh Frozen Fruits! Just add your favorite boba, jellys or popping bubbles",
+          "image": "strawberries.jpg"
+        },
+        {
+          "id": "mango-smoothie",
+          "name": {
+            "en": "Mango Smoothie",
+            "zh": "芒果冰沙"
+          },
+          "description": "Our delicious smoothies are prepared with Fresh Frozen Fruits! Just add your favorite boba, jellys or popping bubbles",
+          "image": "smoothie-1.jpg"
+        },
+        {
+          "id": "taro-smoothie",
+          "name": {
+            "en": "Taro Smoothie",
+            "zh": "芋頭冰沙"
+          },
+          "description": "Our delicious smoothies are prepared with Fresh Frozen Fruits! Just add your favorite boba, jellys or popping bubbles",
+          "image": "taro-dessert.jpg"
+        },
+        {
+          "id": "mixed-berry-smoothie",
+          "name": {
+            "en": "Mixed Berry Smoothie",
+            "zh": "綜合莓果冰沙"
+          },
+          "description": "Our delicious smoothies are prepared with Fresh Frozen Fruits! Just add your favorite boba, jellys or popping bubbles",
+          "image": "smoothie-1.jpg"
+        }
+      ]
+    },
+    "refreshers": {
+      "id": "refreshers",
+      "title": {
+        "en": "Refreshers",
+        "zh": "清涼飲品"
+      },
+      "layout": "grid",
+      "items": [
+        {
+          "id": "passion-fruit",
+          "name": {
+            "en": "Passion Fruit",
+            "zh": "百香果"
+          },
+          "description": "Flavored Refresher Drinks are best served cold over ice or blended; some flavors are great served hot as well",
+          "image": "milk-tea-2.jpg"
+        },
+        {
+          "id": "lychee",
+          "name": {
+            "en": "Lychee",
+            "zh": "荔枝"
+          },
+          "description": "Flavored Refresher Drinks are best served cold over ice or blended; some flavors are great served hot as well",
+          "image": "milk-tea-1.jpg"
+        },
+        {
+          "id": "mango-green-tea",
+          "name": {
+            "en": "Mango Green Tea",
+            "zh": "芒果綠茶"
+          },
+          "description": "Flavored Refresher Drinks are best served cold over ice or blended; some flavors are great served hot as well",
+          "image": "milk-tea-3.jpg"
+        },
+        {
+          "id": "peach-green-tea",
+          "name": {
+            "en": "Peach Green Tea",
+            "zh": "蜜桃綠茶"
+          },
+          "description": "Flavored Refresher Drinks are best served cold over ice or blended; some flavors are great served hot as well",
+          "image": "milk-tea-1.jpg"
+        }
+      ]
+    },
+    "tugo-specials": {
+      "id": "tugo-specials",
+      "title": {
+        "en": "Specialty Drinks",
+        "zh": "特色飲品"
+      },
+      "layout": "grid",
+      "items": [
+        {
+          "id": "frog-bang",
+          "name": {
+            "en": "Tugo's Original Frog Bang",
+            "zh": "青蛙撞奶"
+          },
+          "description": "Tugo's Non-Tea House Drink! - Served Cold With Whole Milk, Brown Sugar & Tugo's Premium Flavored Boba/Tapioca",
+          "image": "boba-pearls.jpg"
+        },
+        {
+          "id": "thai-tea",
+          "name": {
+            "en": "Thai Tea",
+            "zh": "泰式茶"
+          },
+          "description": "Thai Tea & Matcha Green Tea - Served Cold or Blended upon request. Note these Drinks Served with Whole Milk",
+          "image": "milk-tea-2.jpg"
+        },
+        {
+          "id": "matcha-green-tea",
+          "name": {
+            "en": "Matcha Green Tea",
+            "zh": "抹茶"
+          },
+          "description": "Thai Tea & Matcha Green Tea - Served Cold or Blended upon request. Note these Drinks Served with Whole Milk",
+          "image": "milk-tea-3.jpg"
+        },
+        {
+          "id": "just-tea",
+          "name": {
+            "en": "Just TEA!",
+            "zh": "純茶"
+          },
+          "description": "TEA ONLY -- No Flavors - No Boba - No Toppings. Tugo serves fresh brewed Assam Black Tea, Dark Roast Oolong Tea, Jasmine Green Tea",
+          "image": "milk-tea-1.jpg"
+        }
+      ]
+    },
+    "soda": {
+      "id": "soda",
+      "title": {
+        "en": "Sodas/Soft Drinks",
+        "zh": "汽水"
+      },
+      "layout": "grid",
+      "items": [
+        {
+          "id": "soft-drinks",
+          "name": {
+            "en": "Sodas/Soft Drinks",
+            "zh": "汽水/軟飲"
+          },
+          "description": "Variety of sodas and soft drinks",
+          "image": "milk-tea-1.jpg"
+        }
+      ]
+    },
+    "rice": {
+      "id": "rice",
+      "title": {
+        "en": "Bento Box Meals",
+        "zh": "便當"
+      },
+      "layout": "single-row",
+      "items": [
+        {
+          "id": "popcorn-chicken-bento",
+          "name": {
+            "en": "Popcorn Chicken Bento",
+            "zh": "鹹酥雞便當"
+          },
+          "description": "Tugo's Bentos Are Served With Vegetables, Egg & Rice Topped with Minced Pork",
+          "image": "popcorn-chicken-bento-1.jpg"
+        },
+        {
+          "id": "pork-chop-bento",
+          "name": {
+            "en": "Pork Chop Bento",
+            "zh": "排骨便當"
+          },
+          "description": "Tugo's Bentos Are Served With Vegetables, Egg & Rice Topped with Minced Pork",
+          "image": "pork-chop-bento-1.jpg"
+        },
+        {
+          "id": "sausage-bento",
+          "name": {
+            "en": "Taiwanese Sausage Bento",
+            "zh": "香腸便當"
+          },
+          "description": "Tugo's Bentos Are Served With Vegetables, Egg & Rice Topped with Minced Pork",
+          "image": "sausage-bento-2.jpg"
+        },
+        {
+          "id": "tofu-bento",
+          "name": {
+            "en": "Fried Tofu Bento",
+            "zh": "炸豆腐便當"
+          },
+          "description": "Tugo's Bentos Are Served With Vegetables, Egg & Rice Topped with Minced Pork",
+          "image": "tofu-bento.jpg"
+        },
+        {
+          "id": "combo-bento",
+          "name": {
+            "en": "Combo Bento",
+            "zh": "綜合便當"
+          },
+          "description": "Tugo's Bentos Are Served With Vegetables, Egg & Rice Topped with Minced Pork - Choice of Multiple Meats",
+          "image": "combo-bento.jpg"
+        }
+      ]
+    },
+    "noodle": {
+      "id": "noodle",
+      "title": {
+        "en": "Noodle Dishes",
+        "zh": "麵食類"
+      },
+      "layout": "single-row",
+      "items": [
+        {
+          "id": "beef-noodle-soup",
+          "name": {
+            "en": "Beef Noodle Soup",
+            "zh": "牛肉麵"
+          },
+          "description": "Tugo's Savory Taiwanese Style Beef Noodle Soup",
+          "image": "pork-chop-bento-2.jpg"
+        },
+        {
+          "id": "braised-pork-bowl",
+          "name": {
+            "en": "Braised Minced Pork Bowl",
+            "zh": "滷肉飯"
+          },
+          "description": "Traditional Taiwanese braised minced pork over rice",
+          "image": "pork-chop-bento-2.jpg"
+        }
+      ]
+    },
+    "potstickers": {
+      "id": "potstickers",
+      "title": {
+        "en": "Potstickers",
+        "zh": "鍋貼"
+      },
+      "layout": "single-row",
+      "items": [
+        {
+          "id": "potstickers",
+          "name": {
+            "en": "Potstickers",
+            "zh": "鍋貼"
+          },
+          "description": "Tugo's Savory Potstickers Are A Great Appetizer - Serving 8pc, With Dumpling Sauce",
+          "image": "popcorn-chicken-1.jpg"
+        }
+      ]
+    },
+    "sides": {
+      "id": "sides",
+      "title": {
+        "en": "Sides & Extras",
+        "zh": "小菜"
+      },
+      "layout": "single-row",
+      "items": [
+        {
+          "id": "sides-extras",
+          "name": {
+            "en": "Sides & Extras",
+            "zh": "小菜配菜"
+          },
+          "description": "Various Taiwanese sides and extras",
+          "image": "bentos-display.jpg"
+        },
+        {
+          "id": "vegetarian-options",
+          "name": {
+            "en": "Vegetarian Options",
+            "zh": "素食選擇"
+          },
+          "description": "Vegetarian meal options available",
+          "image": "tofu-bento.jpg"
+        },
+        {
+          "id": "desserts",
+          "name": {
+            "en": "Desserts",
+            "zh": "甜點"
+          },
+          "description": "Dessert - Served HOT!",
+          "image": "taro-dessert.jpg"
+        }
+      ]
+    }
+  }
+}
